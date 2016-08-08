@@ -37,11 +37,11 @@
 
 ### 可以自定义设置别名
 
-echo 'aliases="$HOME/Documents/ssh/connect.sh"' >> ~/.bashrc
+> echo 'aliases="$HOME/Documents/ssh/connect.sh"' >> ~/.bashrc
 
 ### 之后执行
 
-connect show test1
+> connect show test1
 
 ```
 /test1/host           	192.168.0.1
@@ -53,7 +53,7 @@ connect show test1
 /test1/language       	en_US.UTF-8
 ```
 
-connect test1
+> connect test1
 
 ```
 Last login: Mon Aug  8 23:48:46 2016 from gateway
